@@ -11,6 +11,14 @@
 
 > Primo progetto con Laravel
 
+## Tecnologie e Librerie
+
+-   Html
+-   Css
+-   Tailwind
+-   Php
+-   Laravel
+
 ## Svolgimento
 
 Passiamo dei dati alla view in modo da visualizzarli dinamicamente con Blade.
