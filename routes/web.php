@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $message = "Hello World";
-    $features = ["My name", "My age"];
+    $features = ["My name", "My age", "Project Name"];
 
     return view('home', compact("message", "features"));
 
@@ -24,7 +24,7 @@ Route::get('/', function () {
 
 Route::get('/feature/{index}', function($index) {
 
-    $features = ["Gianmarvo", "26"];
+    $features = ["Gianmarco", "26", "Laravel First"];
     $feature = $features[$index];
 
     return view('features.feature', compact("feature"));

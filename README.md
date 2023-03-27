@@ -11,6 +11,14 @@
 
 > Primo progetto con Laravel
 
+## Svolgimento
+
+Passiamo dei dati alla view in modo da visualizzarli dinamicamente con Blade.
+
+## Bonus
+
+Creiamo più di una pagina e visualizziamo un header menu con i link di tutte le pagine, utilizzando la funzione `route()`.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
