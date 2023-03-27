@@ -11,7 +11,14 @@
 <body>
 
     <h1> {{$message}} </h1>
-    <p>by {{$name}} </p>
+
+    <ul>
+        @foreach ($features as $feature)
+        <li>
+            <a href="{{route("featurepage", ["index" => $loop->index])}}"> {{$feature}} </a>
+        </li>
+        @endforeach
+    </ul>
 
 </body>
 

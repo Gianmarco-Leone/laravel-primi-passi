@@ -14,7 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     $message = "Hello World";
-    $name = "Gianmarco";
-    return view('home', compact("message", "name"));
-});
+    $features = ["My name", "My age"];
+
+    return view('home', compact("message", "features"));
+
+})->name("homepage");
+
+Route::get('/feature/{index}', function($index) {
+
+    $features = ["Gianmarvo", "26"];
+    $feature = $features[$index];
+
+    return view('features.feature', compact("feature"));
+
+})->name("featurepage");
